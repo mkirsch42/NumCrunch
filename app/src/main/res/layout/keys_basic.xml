@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mkirsch42.numcrunch.KeyPadLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="3"
+    android:rowCount="4">
+
+    <GridLayout
+        android:columnCount="3"
+        android:rowCount="4"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="3">
+
+        <Button style="@style/AppTheme.Button"
+        android:text="1"
+        android:tag="O.NUM_1" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="2"
+            android:tag="O.NUM_2" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="3"
+            android:tag="O.NUM_3" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="4"
+            android:tag="O.NUM_4" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="5"
+            android:tag="O.NUM_5" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="6"
+            android:tag="O.NUM_6" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="7"
+            android:tag="O.NUM_7" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="8"
+            android:tag="O.NUM_8" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="9"
+            android:tag="O.NUM_9" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="."
+            android:tag="O.DECIMAL" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="0"
+            android:tag="O.NUM_0" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="⏎"
+            android:tag="O.ENTER" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:rowCount="5"
+        android:background="@color/colorPrimaryDark">
+
+        <Button style="@style/AppTheme.Button"
+            android:text="DEL"
+            android:tag="O.BSPC O.DEL" />
+        <Button style="@style/AppTheme.Button"
+            android:text="÷"
+            android:tag="O.DIVIDE O.MOD" />
+        <Button style="@style/AppTheme.Button"
+            android:text="×"
+            android:tag="O.MULT" />
+        <Button style="@style/AppTheme.Button"
+            android:text="-"
+            android:tag="O.MINUS O.NEG" />
+        <Button style="@style/AppTheme.Button"
+            android:text="+"
+            android:tag="O.PLUS" />
+
+    </GridLayout>
+
+</com.mkirsch42.numcrunch.KeyPadLayout>

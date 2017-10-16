@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mkirsch42.numcrunch.KeyPadLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <GridLayout
+        android:columnCount="3"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="3">
+
+        <Button style="@style/AppTheme.Button"
+            android:text="e"
+            android:textAllCaps="false"
+            android:tag="C.E" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="π"
+            android:textAllCaps="false"
+            android:tag="C.PI" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="φ"
+            android:textAllCaps="false"
+            android:tag="C.PHI" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="ε"
+            android:textAllCaps="false"
+            android:tag="C.EPFS" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="μ"
+            android:textAllCaps="false"
+            android:tag="C.MPFS" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="G"
+            android:tag="C.G" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="q"
+            android:textAllCaps="false"
+            android:tag="C.CHARGE" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="c"
+            android:textAllCaps="false"
+            android:tag="C.C" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="h"
+            android:textAllCaps="false"
+            android:tag="C.H" />
+
+    </GridLayout>
+
+</com.mkirsch42.numcrunch.KeyPadLayout>

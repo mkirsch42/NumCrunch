@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_fun"
+        android:icon="@drawable/ic_code_black_24dp"
+        android:title="@string/title_fun" />
+
+    <item
+        android:id="@+id/navigation_adv"
+        android:icon="@drawable/ic_functions_black_24dp"
+        android:title="@string/title_adv" />
+
+    <item
+        android:id="@+id/navigation_basic"
+        android:icon="@drawable/ic_dialpad_black_24dp"
+        android:title="@string/title_basic" />
+
+    <item
+        android:id="@+id/navigation_values"
+        android:icon="@drawable/ic_pi"
+        android:title="@string/title_values" />
+
+    <item
+        android:id="@+id/navigation_vars"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:title="@string/title_vars" />
+
+</menu>

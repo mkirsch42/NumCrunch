@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NumCrunch</string>
+    <string name="title_fun">Functions</string>
+    <string name="title_adv">Operations</string>
+    <string name="title_basic">Basic</string>
+    <string name="title_values">Constants</string>
+    <string name="op_exp">
+        <![CDATA[Y<sup><small>X</small></sup>]]>
+    </string>
+    <string name="title_vars">Variables</string>
+</resources>

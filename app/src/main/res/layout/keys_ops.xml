@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mkirsch42.numcrunch.KeyPadLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="4">
+        <Button style="@style/AppTheme.Button"
+            android:text="sin"
+            android:tag="O.SIN O.ARCSIN" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="cos"
+            android:tag="O.COS O.ARCCOS" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="tan"
+            android:tag="O.TAN O.ARCTAN" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="√"
+            android:tag="O.SQRT" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="ln"
+            android:tag="O.LN C.E" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="log"
+            android:tag="O.LOG O.E10" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="◿"
+            android:tag="O.R_P O.P_R" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="GCD"
+            android:tag="O.GCD" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="⇅"
+            android:tag="O.RND O.FLOOR" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="!"
+            android:tag="O.FAC O.GMA" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="@string/op_exp"
+            android:textAllCaps="false"
+            android:tag="O.EXP" />
+
+        <Button style="@style/AppTheme.Button"
+            android:text="X⇄Y"
+            android:tag="O.SWAP" />
+    </GridLayout>
+</com.mkirsch42.numcrunch.KeyPadLayout>
